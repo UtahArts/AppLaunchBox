@@ -1,24 +1,21 @@
 # App Launch Box
-
 アプリ・フォルダー・Webページをプリセットにまとめて起動する、Windows向けランチャーです。
 
 ## ダウンロード
-[最新版インストーラー 3.1.7](https://github.com/UtahArts/AppLaunchBox/releases/download/v3.1.7/AppLaunchBox-Setup-3.1.7.exe) / [リリース一覧](https://github.com/UtahArts/AppLaunchBox/releases)
+[最新版インストーラー 3.1.8](https://github.com/UtahArts/AppLaunchBox/releases/download/v3.1.8/AppLaunchBox-Setup-3.1.8.exe) / [リリース一覧](https://github.com/UtahArts/AppLaunchBox/releases)
 
-Windows 10・11 x64向けです。3.1.7から必要な.NET実行環境を同梱し、別途Runtimeの導入が不要になりました。Windows 10ではすりガラス項目を非表示にします。Windows 10実機での動作確認は未実施です。
+Windows 10・11 x64向けです。必要な.NET実行環境を同梱します。Windows 10ではすりガラス項目を非表示にします。Windows 10実機での動作確認は未実施です。
 
-## 3.1.7の変更
-アップデート中の進捗ポップアップを追加しました。ダウンロード・照合・設定保存・インストール・再起動を表示します。ダウンロードの中止、失敗理由の表示と閉じる操作に対応しています。今回の表示・自動更新の実動作テストは未実施です。
+## 3.1.8の変更
+更新ファイルの実行直前の再照合と、起動までの書換え防止を追加しました。同じ安全対策のローカル修正で、更新23項目・導入／更新／削除14項目・基本／復旧20グループが通過しています。3.1.8の本体・インストーラーのビルドと依存248件の照合が成功しています。
 
-## 3.1.6から引き継ぐ対応
-OneDriveのクラウド属性をリンクと誤判定する処理を修正しました。リンク・ジャンクションの保護を維持し、保存先移行時のファイル照合を追加しています。既存の保存先は変更しません。
+電子署名の証明書は未取得で、EXEは未署名です。Windows 10実機・実際のOneDrive・ディスク満杯・電源断・更新UIから再起動までの一連の実動作は未検証です。
 
-本体・インストーラーのビルド、依存248件、PowerShell 5.1構文を確認済みです。実際のOneDriveサービス、今回のインストーラー導入・更新・削除の実動作テストは未実施です。
+## 機能
+一括起動・終了、起動中一覧、ブラウザのお気に入り登録、スタートアップ管理、配色・画像カスタマイズ、バックアップ、チュートリアル、確認後の自動更新と更新中の進捗表示に対応しています。
 
 ## 説明書
-[日本語](https://github.com/UtahArts/AppLaunchBox/releases/download/v3.1.7/AppLaunchBox-Manual.ja.html) / [English quick start](https://github.com/UtahArts/AppLaunchBox/releases/download/v3.1.7/QuickStart.en.html)
-
-一括起動・終了、起動中一覧、ブラウザのお気に入り登録、スタートアップ管理、配色・画像カスタマイズ、バックアップ、チュートリアル、確認後の自動更新に対応しています。
+[日本語](https://github.com/UtahArts/AppLaunchBox/releases/download/v3.1.8/AppLaunchBox-Manual.ja.html) / [English quick start](https://github.com/UtahArts/AppLaunchBox/releases/download/v3.1.8/QuickStart.en.html)
 
 制作者：たゆた ゆた / アトリエゆた（AtelierUtah）
 [ポートフォリオ](https://atelier-utah.utah-arts-333.workers.dev/) / [Twitch](https://www.twitch.tv/utah_arts) / [X](https://x.com/Utah_Arts)
